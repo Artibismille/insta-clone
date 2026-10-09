@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="column left"><div class="login-logo">
+            <img src="logo.png" alt="Instagram Logo">
+        </div>
+
+             <h2 >
+            See everyday moments from   <br>
+            <span> your close friends.</span>
+             <h2>
+
+        <br>
+
+        <div class="img-div"><img src="img.jpg" alt="Friends Image" ></div>
+        </div>
+        <div class="column right"><br><br>
+            <p style="margin-RIGHT: 250PX;" >Login into Instagram</p> <br>
+            
+        <h4 style="margin-right: 450px;">Mobile or Email</h4> 
+            <input type="email" placeholder="Mobile number, Username or email"><br>
+           
+            <h4 style="margin-right: 500px;">Password</h4>
+            <input type="password" name="password" id="" placeholder="Password">
+
+        <button class="btn">Log in</button><br>
+        Forget Password?
+        <div><BR><button><a href="https://www.facebook.com/" class="fa fa-facebook"></a><a href="https://www.facebook.com/ " style="color: white;">  login with facebook</a></button><br><br>
+        <button ><a href="New-Account.html">Create new account</a></button><br></div>
+        
+        </div>
+        
+    </div>
+    <footer class="footer">
+        <a href="#">Meta</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">job</a>
+        <a href="#">Help</a>
+        <a href="#">ApI</a>
+        <a href="#">Privacy</a>
+        <a href="#">Tems </a>
+        <a href="#">Location</a>
+        <a href="#">Popular</a>
+        <a href="#">Instagram Lite</a>
+        <a href="#">Meta AI</a>
+        <a href="#">Thread</a>
+        <a href="#">contact uploading and NOn-voice user</a>
+        <a href="#">Meta verified </a><br>
+        
+            <select id="language">
+    <option value="English">English</option>
+    <option value="Hindi">Hindi</option>
+    <option value="French">French</option>
+</select>
+
+<p > @ 2026 Instagram from meta</p>
+<script>
+const language = document.getElementById("language");
+const result = document.getElementById("result");
+
+language.onchange = function() {
+    result.innerText = "Selected: " + language.value;
+};
+</script>
+
+</body>
+</html>

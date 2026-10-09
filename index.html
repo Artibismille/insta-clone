@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="column left">
+
+             <p >
+            See everyday moments from <br>    your
+            <span>close friends.</span>
+             </p>
+
+        <br>
+
+        <img src="img.jpg" alt="Friends Image">
+        </div>
+        <div class="column right"><br><br><br><br><br><br><br><br>
+            <div class="logo">
+            <img src="logo.png" alt="Instagram Logo">
+        </div>
+
+        <p>Get the full experience with<br><br>
+        the tablet app</p>
+
+        <button class="btn">Open Instagram</button>
+
+        <p class="logbtn">
+            <a href="login.html">Log in</a> or
+            <a href="Sign-up.html">Sign up</a>
+        </p>
+        </div>
+    </div>
+    <footer class="footer">
+        <a href="#">Meta</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">job</a>
+        <a href="#">Help</a>
+        <a href="#">ApI</a>
+        <a href="#">Privacy</a>
+        <a href="#">Tems </a>
+        <a href="#">Location</a>
+        <a href="#">Popular</a>
+        <a href="#">Instagram Lite</a>
+        <a href="#">Meta AI</a>
+        <a href="#">Thread</a>
+        <a href="#">contact uploading and NOn-voice user</a>
+        <a href="#">Meta verified </a><br>
+        
+            <select id="language">
+    <option value="English">English</option>
+    <option value="Hindi">Hindi</option>
+    <option value="French">French</option>
+</select>
+
+<p > @ 2026 Instagram from meta</p>
+<script>
+const language = document.getElementById("language");
+const result = document.getElementById("result");
+
+language.onchange = function() {
+    result.innerText = "Selected: " + language.value;
+};
+</script>
+
+</body>
+</html>
